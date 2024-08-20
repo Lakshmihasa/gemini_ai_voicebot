@@ -66,7 +66,7 @@ st.markdown(
 # Sidebar with title, image, and description
 with st.sidebar:
     st.markdown('<h1 class="title">🤖 Gemini AI Chatbot 🤖</h1>', unsafe_allow_html=True)
-    img = Image.open("C:/Users/hp/Downloads/chatbot_avatar.png.jpg")
+    img = Image.open("chatbot_avatar.png")
     st.image(img, use_column_width=True, width=280)  # Adjust width to fit sidebar
     st.markdown('<p class="description">Your AI-powered assistant for all your queries.</p>', unsafe_allow_html=True)
 
